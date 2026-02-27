@@ -6,6 +6,8 @@ Framework-agnostic [Epoint.az](https://epoint.az) payment gateway integration fo
 
 Works with any PHP 8.2+ application -- no Laravel or other framework required.
 
+> **Using Laravel?** See [epoint-payment-for-laravel](https://github.com/aftandilmmd/epoint-payment-for-laravel) -- a thin wrapper that adds auto-discovery, `config/epoint.php`, the `Epoint` facade, and Laravel Log channel integration. All DTOs, Enums, Exceptions, and core logic come from this package.
+
 ## Requirements
 
 - PHP 8.2+
@@ -531,6 +533,10 @@ vendor/bin/pest
 ```
 
 56 tests, 165 assertions. Uses Guzzle `MockHandler` with JSON fixtures.
+
+## Related Packages
+
+- **[epoint-payment-for-laravel](https://github.com/aftandilmmd/epoint-payment-for-laravel)** -- Laravel wrapper that adds ServiceProvider auto-discovery, the `Epoint` facade, `config/epoint.php` with env variable support, and automatic Laravel Log channel integration. Requires this package as a dependency.
 
 ## License
 

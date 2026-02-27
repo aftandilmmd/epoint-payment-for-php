@@ -6,6 +6,8 @@ PHP üçün framework-dən asılı olmayan [Epoint.az](https://epoint.az) ödən
 
 PHP 8.2+ ilə işləyən bütün tətbiqlərdə istifadə edilə bilər -- Laravel və ya başqa bir framework tələb etmir.
 
+> **Laravel istifadə edirsiniz?** [epoint-payment-for-laravel](https://github.com/aftandilmmd/epoint-payment-for-laravel) paketinə baxın -- avtomatik kəşfetmə, `config/epoint.php`, `Epoint` facade və Laravel Log kanal inteqrasiyası əlavə edən nazik bir wrapper. Bütün DTO, Enum, Exception və əsas məntiq bu paketdən gəlir.
+
 ## Tələblər
 
 - PHP 8.2+
@@ -531,6 +533,10 @@ vendor/bin/pest
 ```
 
 56 test, 165 doğrulama. JSON fixture-lar ilə Guzzle `MockHandler` istifadə edir.
+
+## Əlaqəli Paketlər
+
+- **[epoint-payment-for-laravel](https://github.com/aftandilmmd/epoint-payment-for-laravel)** -- ServiceProvider avtomatik kəşfetmə, `Epoint` facade, env dəyişən dəstəkli `config/epoint.php` və avtomatik Laravel Log kanal inteqrasiyası əlavə edən Laravel wrapper. Bu paketi asılılıq olaraq tələb edir.
 
 ## Lisenziya
 
