@@ -1,0 +1,16 @@
+{
+    "status": "success",
+    "order_id": "order-789",
+    "code": "000",
+    "message": "Confirmed",
+    "transaction": "tw0000000501",
+    "bank_transaction": "BT567890",
+    "bank_response": "Approved",
+    "operation_code": "100",
+    "rrn": "999888777666",
+    "card_name": "John Doe",
+    "card_mask": "422865******5765",
+    "amount": 100.00,
+    "split_amount": 30.00,
+    "other_attr": null
+}

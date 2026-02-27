@@ -1,0 +1,12 @@
+{
+    "status": "success",
+    "code": "000",
+    "message": "Confirmed",
+    "card_id": "cexxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "bank_transaction": "BT123456",
+    "bank_response": "Approved",
+    "operation_code": "001",
+    "rrn": "123456789012",
+    "card_name": "John Doe",
+    "card_mask": "422865******5765"
+}

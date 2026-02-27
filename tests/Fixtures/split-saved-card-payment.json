@@ -1,0 +1,11 @@
+{
+    "status": "success",
+    "transaction": "tw0000000601",
+    "bank_transaction": "BT678901",
+    "bank_response": "Approved",
+    "rrn": "444555666777",
+    "card_mask": "422865******5765",
+    "card_name": "John Doe",
+    "amount": 100.00,
+    "split_amount": 30.00
+}
